@@ -1,0 +1,8 @@
+source_name,original_label,stress_level,rule,use_in_v1
+MentalDistress,Others,Low,General/non-distress text is mapped to Low stress.,Yes
+MentalDistress,Frustrated,Medium,"Frustration shows pressure/irritation but not necessarily severe distress, so it is mapped to Medium stress.",Yes
+MentalDistress,Anxious,High,Anxiety is treated as strong stress expression for the first three-class version.,Yes
+MentalDistress,Depressed,Exclude from v1,Excluded from first version to avoid mixing depression with stress labels. May be reviewed later.,No
+MentalDistress,Suicidal,Exclude from v1,Excluded from first version because it is high-risk mental health content and not simply stress.,No
+Dreaddit,0 / non-stress,Low,Binary non-stress text can support Low class if needed.,Optional
+Dreaddit,1 / stress,High,Binary stress text can support High class if needed. No Medium class available.,Optional
